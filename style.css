@@ -1,0 +1,129 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  background: #dad2d2;
+  width: 600px;
+  margin: auto;
+  padding: 8px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.tab-group {
+  margin: auto;
+  width: fit-content;
+  height: 38px;
+  display: block;
+}
+.tab {
+  color: white;
+  text-shadow: 1px 1px 3px #287a9f;
+  background-color: #36a1d4;
+  /*box-shadow: 1px 1px 5px rgba(40, 122, 159, 0.2);*/
+  box-shadow: inset 0 -1px 4px rgba(0, 0, 0, 0.2);
+  border: 0.1em solid #278fc4;
+  width: 220px;
+  height: 30px;
+  padding: 8px 9px 6px 9px;
+  margin-top: 8px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.tab.inactive {
+  color: #ffffff5e;
+  text-shadow: 1px 1px 3px #51abd3;
+}
+.tab.inactive:hover {
+  background-color: #36a1d4;
+}
+.tab:hover {
+  background-color: #278fc4;
+}
+.tab:first-child {
+  border-top-left-radius: 2px;
+}
+.tab:last-child {
+  border-top-right-radius: 2px;
+}
+.title {
+  margin: 15px auto 10px auto;
+}
+.tab-content {
+  background: #fff;
+  width: 500px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.exitBtn {
+  height: 20px;
+  padding: 5px 35px 0 35px;
+}
+/*.login-register-form {*/
+/*  background: #fff;*/
+/*  width: 500px;*/
+/*  margin: 0px auto;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  border-radius: 2px;*/
+/*  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);*/
+/*}*/
+.login-register-form h1 {
+  font-weight: 100;
+  padding: 0px 35px 0 35px;
+  margin: 5px auto 0 auto;
+}
+.login-register-form .content {
+  padding: 0 35px 15px 35px;
+  text-align: center;
+}
+.login-register-form .input-field {
+  padding: 12px 5px;
+}
+.login-register-form .input-field input {
+  font-size: 16px;
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  padding: 10px 1px;
+  border: 0;
+  border-bottom: 1px solid #747474;
+  outline: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.login-register-form .input-field input:focus {
+  border-color: #222;
+}
+.login-register-form a.link {
+  text-decoration: none;
+  color: #747474;
+
+  display: inline-block;
+  margin-top: 20px;
+}
+.login-register-form .action {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+}
+.login-register-form .action button {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px 3px #287a9f;
+  background-color: #36a1d4;
+  box-shadow: 1px 1px 5px rgba(40, 122, 159, 0.2);
+  border: 0.1em solid #278fc4;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.login-register-form .action button:hover {
+  background-color: #278fc4;
+}
+
+
+
